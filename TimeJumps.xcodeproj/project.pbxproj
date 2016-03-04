@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		533B68AC1C89AB8B00AA0627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B68AB1C89AB8B00AA0627 /* AppDelegate.swift */; };
-		533B68AE1C89AB8B00AA0627 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B68AD1C89AB8B00AA0627 /* ViewController.swift */; };
+		533B68AE1C89AB8B00AA0627 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B68AD1C89AB8B00AA0627 /* MainViewController.swift */; };
 		533B68B11C89AB8B00AA0627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533B68AF1C89AB8B00AA0627 /* Main.storyboard */; };
 		533B68B31C89AB8B00AA0627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533B68B21C89AB8B00AA0627 /* Assets.xcassets */; };
 		533B68B61C89AB8B00AA0627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533B68B41C89AB8B00AA0627 /* LaunchScreen.storyboard */; };
+		533B68BE1C89ACD900AA0627 /* JumpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B68BD1C89ACD900AA0627 /* JumpManager.swift */; };
+		533B68C01C89ADF900AA0627 /* Jump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B68BF1C89ADF900AA0627 /* Jump.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		533B68A81C89AB8B00AA0627 /* TimeJumps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeJumps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		533B68AB1C89AB8B00AA0627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		533B68AD1C89AB8B00AA0627 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		533B68AD1C89AB8B00AA0627 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		533B68B01C89AB8B00AA0627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		533B68B21C89AB8B00AA0627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		533B68B51C89AB8B00AA0627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		533B68B71C89AB8B00AA0627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533B68BD1C89ACD900AA0627 /* JumpManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumpManager.swift; sourceTree = "<group>"; };
+		533B68BF1C89ADF900AA0627 /* Jump.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jump.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				533B68AB1C89AB8B00AA0627 /* AppDelegate.swift */,
-				533B68AD1C89AB8B00AA0627 /* ViewController.swift */,
+				533B68AD1C89AB8B00AA0627 /* MainViewController.swift */,
 				533B68AF1C89AB8B00AA0627 /* Main.storyboard */,
 				533B68B21C89AB8B00AA0627 /* Assets.xcassets */,
 				533B68B41C89AB8B00AA0627 /* LaunchScreen.storyboard */,
 				533B68B71C89AB8B00AA0627 /* Info.plist */,
+				533B68BD1C89ACD900AA0627 /* JumpManager.swift */,
+				533B68BF1C89ADF900AA0627 /* Jump.swift */,
 			);
 			path = TimeJumps;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				533B68AE1C89AB8B00AA0627 /* ViewController.swift in Sources */,
+				533B68AE1C89AB8B00AA0627 /* MainViewController.swift in Sources */,
+				533B68C01C89ADF900AA0627 /* Jump.swift in Sources */,
 				533B68AC1C89AB8B00AA0627 /* AppDelegate.swift in Sources */,
+				533B68BE1C89ACD900AA0627 /* JumpManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
